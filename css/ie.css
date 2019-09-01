@@ -1,0 +1,30 @@
+nav ul li a {
+  color: white;
+}
+
+nav ul li a:hover {
+	color: gray;
+}
+  
+a.button {
+	border: none;
+}
+
+header#global {
+  position: fixed;
+  left: 50px;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+ 
+header#global ul.nav li a {
+	color: white;
+}
+header#global ul.nav li a :hover {
+	color: black;
+}
+  
+section article p {
+  line-height: 31px;
+}
